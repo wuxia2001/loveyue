@@ -1,0 +1,41 @@
+.days {
+    font-size: 216px;
+    font-family: 'Rye', cursive;
+    width: auto;
+    text-align: center;
+}
+
+.days-label {
+    font-size: 54px;
+}
+
+.seconds {
+    margin-top: 32px;
+    font-size: 55px;
+    font-family: "Monda", Georgia, sans-serif;
+    width: auto;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+}
+
+@font-face {
+  font-family: 'Rye';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rye Regular'), local('Rye-Regular'), url('Rye-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Monda';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Monda'), local('Monda-Regular'), url('Monda-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Monda';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Monda Bold'), local('Monda-Bold'), url('Monda-Bold.ttf') format('truetype');
+}
